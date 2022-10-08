@@ -1,0 +1,33 @@
+@font-face {
+    font-family:Magical Story;
+    src: url(../font/magical_story/Magical\ Story.ttf);
+}
+
+body {
+    font-family: Magical Story;
+    background-image: url(../img/WALPAPER\ FONDO.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    /* background: #f1f1f1; */
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+  }
+  
